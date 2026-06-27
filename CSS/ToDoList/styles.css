@@ -1,0 +1,44 @@
+h1{
+  text-align:center;
+  padding:5px;
+}
+.todo-list{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  color:brown
+}
+a:visited{
+  color:purple
+}
+a:hover{
+  color:black;
+}
+a:active{
+  color:green;
+}
+body{
+  background-color: #E0FFFF;
+}
+.firstdiv
+{
+  background-color:white;
+}
+.seconddiv{
+  background-color:#FFE4EC;
+  padding:10px;
+}
+div{
+  padding:10px;
+  background-color:white;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+hr{
+  width:5px;
+}
+.sub-item{
+  list-style-type:square;
+}
