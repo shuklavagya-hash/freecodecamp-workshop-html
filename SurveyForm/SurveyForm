@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Name</label>
+      <input id="name" type="text" placeholder="Enter Name" required></input>
+      <label id="email-label" for="email">E mail</label>
+      <input id="email" type="email" placeholder="enter e mail" required></input>
+      <label for="age" id="number-label">Age</label>
+      <input id="number" type="number" max="100" min="1" placeholder="Age" required></input>
+      
+      <label for="service" >Which option best describes your current role?</label>
+
+          <select name="dropdown" id="dropdown" >
+            <option value="student" >Student</option>
+            <option value="fulltime jo">Full Time Job</option>
+            <option value="other">Others</option>
+            <option value="cannot say">Cannot Say</option>
+            <option  value="freelancer">Freelancer</option>
+          </select>
+          <fieldset>
+          <legend>Would you recommend freeCodeCamp to a friend?</legend>
+          <input id="yes-option" type="radio" name="review" value="yes" />
+          <label for="yes-option">Yes</label>
+          <input id="no-option" type="radio" name="review" value="no" />
+          <label for="no-option">No</label>
+        </fieldset>
+        <fieldset>
+          <legend>What would you like to see improved? (Check all that applies)</legend>
+          <input type="checkbox" id="improvement" name="improvement" value="improvement" />
+          <label for="ads">Front end Projects</label>
+
+          <input type="checkbox" id="improvement" name="improvement" value="improvement" />
+          <label for="ads">Back end Projects</label>
+
+          <input type="checkbox" id="improvement" name="improvement" value="improvement" />
+          <label for="ads">Blockchain</label>
+
+          <input type="checkbox" id="improvement" name="improvement" value="improvement" />
+          <label for="ads">JavaScript</label>
+
+          <input type="checkbox" id="improvement" name="improvement" value="improvement" />
+          <label for="ads">Data Visualisation</label>
+          </fieldset>
+
+          <legend>Any comments or suggestions?</legend>
+        <textarea cols="30" rows="5" name="comments" id="comments"></textarea>
+
+         <button id="submit" type="submit">Submit</button>
+  </body>
+</html> 
